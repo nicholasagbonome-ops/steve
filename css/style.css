@@ -1,0 +1,624 @@
+ /*
+header begins
+*/
+.logo{
+    height: 60px!important;
+    width: 100%!important;
+}
+.mayor{
+    border: 1px solid white!important;
+    padding: 1px 10px;
+    background-color: white;
+    border-radius: 20px;
+}
+.mayor input{
+    outline-color: white!important;
+    width: 100%;
+    border: 1px solid white;
+}
+.carousel img{
+    height: 600px;
+}
+#hero{
+    margin-top: 80px;
+}
+#hero img{
+    height: 900px;
+}
+span{
+    width: 100%;
+    height: auto;
+    float: left;
+    text-align: center;
+    padding: 20px 0;
+    font-weight: bolder;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: green;
+}
+.about ul{
+    padding-left: 0;
+}
+.about li{
+    list-style: angle right;
+    padding: 3px 0;
+}
+.about a{
+    border: 1px solid green;
+    color: green;
+}
+.about a:hover{
+    border: 1px solid green;
+    color: white;
+    background-color: green; 
+}
+.design{
+    transform: rotate(180deg);
+}
+.opo span{
+    font-size: 25px;
+    color: green;
+    font-weight: bolder;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 100%;
+    height: auto;
+    text-align: center;
+    text-shadow: -1px 2px 2px black;
+    padding: 20px 0;
+}
+/*
+about section ends
+===============================================
+services section begins
+*/
+.umera .amy img{
+    width: 60px;
+    height: 60px;
+    margin-top: 20px;
+    border-radius: 100px;
+}
+.umera .amy h4{
+    margin-top: 20px;
+}
+.umera .amy a{
+    color: green;
+    text-decoration: none;
+}
+.umera .amy {
+    padding: 20px;
+    background-color: white;
+    border-radius: 7px;
+    box-shadow: 0 3px 3px 2px gainsboro;
+}
+.umera .amy:hover{
+     padding: 20px;
+    color: white;
+    border-radius: 7px;
+    box-shadow: 0 3px 3px 2px gainsboro;
+    background-color: green;
+    cursor: alias;
+}
+.umera .amy:hover h4{
+    color: white;
+}
+.umera .amy:hover a{
+    color: white;
+}
+.ude span{
+     font-size: 25px;
+    color: green;
+    font-weight: bolder;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 100%;
+    height: auto;
+    text-align: center;
+    text-shadow: -1px 2px 2px black;
+    padding: 5px 0;
+}
+/*
+sevice ends
+===============================================
+products begins
+*/
+.loveth .uzoamaka{
+    width: 100%;
+    background-color: whitesmoke;
+    text-align: center;
+}
+.loveth .uzoamaka img{
+    height: 350px;
+    clip-path: polygon(0% 0%, 100% 0%, 100% 75%, 75% 75%, 80% 88%, 50% 75%, 0% 75%);}
+.loveth .uzoamaka h5{
+    color: green;
+}
+.upe span{
+    font-size: 25px;
+    color: green;
+    font-weight: bolder;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 100%;
+    height: auto;
+    text-align: center;
+    text-shadow: -1px 2px 2px black;
+    padding: 3px 0;
+}
+.uzoamaka:hover{
+    background-color: green;
+    color: white;
+    cursor: alias;
+}
+.uzoamaka:hover h5{
+    color: white;
+}
+.uzoamaka:hover a{
+    border: 1px solid white;
+    background-color: green;
+    color: white;
+}
+/*
+products ends
+========================================
+portfolio begins
+*/
+.udoka .goods{
+    padding: 0;
+}
+.udoka .goods .sam{
+    width: 100%;
+    height: 300px;
+    background-image: url(../image/ankara\ suit.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    float: left;
+}
+.udoka .goods .sam:hover{
+    width: 100%;
+    height: 300px;
+    background-image: url(../image/ankara\ suit.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    float: left;
+    animation: emma 1s linear forwards;
+}
+.udoka .goods .sam .cont{
+    width: 100%;
+    height: 80px;
+    background-color: green;
+    margin-top: 220px;
+    float: left;
+    opacity: 0.85;
+    display: none;
+}
+.tochi span{
+    font-size: 25px;
+    color: green;
+    font-weight: bolder;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 100%;
+    height: auto;
+    text-align: center;
+    text-shadow: -1px 2px 2px black;
+    padding: 3px 0;
+}
+.cont p{
+    width: 60%;
+    float: left;
+    padding-left: 10px;
+    margin-top: 12px;
+    color: white;
+    font-weight: 600;
+}
+.cont a{
+    padding: 3px 7px;
+    border: 1px solid white;
+    line-height: 3.5em;
+    text-decoration: none;
+    color: white;
+    border-radius: 5px;
+}
+.udoka .goods .sam:hover .cont{
+    display: block;
+}
+@keyframes emma {
+    from{background-size: 600px;} 
+    to{background-size: 800px;}
+}
+.udoka .goods .paul{
+    width: 100%;
+    height: 300px;
+    background-image: url(../image/style.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    float: left;
+}
+.udoka .goods .paul:hover{
+    width: 100%;
+    height: 300px;
+    background-image: url(../image/style.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    float: left;
+    animation: emma 1s linear forwards;
+}
+.udoka .goods .paul .cont{
+    width: 100%;
+    height: 80px;
+    background-color: green;
+    margin-top: 220px;
+    float: left;
+    opacity: 0.85;
+    display: none;
+}
+.cont p{
+    width: 60%;
+    float: left;
+    padding-left: 10px;
+    margin-top: 12px;
+    color: white;
+    font-weight: 600;
+}
+.cont a{
+    padding: 3px 7px;
+    border: 1px solid white;
+    line-height: 3.5em;
+    text-decoration: none;
+    color: white;
+    border-radius: 5px;
+}
+.udoka .goods .paul:hover .cont{
+    display: block;
+}
+@keyframes emma {
+    from{background-size: 600px;} 
+    to{background-size: 800px;}
+}
+.udoka .goods .tobe{
+    width: 100%;
+    height: 300px;
+    background-image: url(../image/gucci\ hoodie.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    float: left;
+}
+.udoka .goods .tobe:hover{
+    width: 100%;
+    height: 300px;
+    background-image: url(../image/gucci\ hoodie.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    float: left;
+    animation: emma 1s linear forwards;
+}
+.udoka .goods .tobe .cont{
+    width: 100%;
+    height: 80px;
+    background-color: green;
+    margin-top: 220px;
+    float: left;
+    opacity: 0.85;
+    display: none;
+}
+.cont p{
+    width: 60%;
+    float: left;
+    padding-left: 10px;
+    margin-top: 12px;
+    color: white;
+    font-weight: 600;
+}
+.cont a{
+    padding: 3px 7px;
+    border: 1px solid white;
+    line-height: 3.5em;
+    text-decoration: none;
+    color: white;
+    border-radius: 5px;
+}
+.udoka .goods .tobe:hover .cont{
+    display: block;
+}
+@keyframes emma {
+    from{background-size: 600px;} 
+    to{background-size: 800px;}
+}
+.udoka .goods .cup{
+    width: 100%;
+    height: 300px;
+    background-image: url(../image/aba.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    float: left;
+}
+.udoka .goods .cup:hover{
+    width: 100%;
+    height: 300px;
+    background-image: url(../image/aba.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    float: left;
+    animation: emma 1s linear forwards;
+}
+.udoka .goods .cup .cont{
+    width: 100%;
+    height: 80px;
+    background-color: green;
+    margin-top: 220px;
+    float: left;
+    opacity: 0.85;
+    display: none;
+}
+.cont p{
+    width: 60%;
+    float: left;
+    padding-left: 10px;
+    margin-top: 12px;
+    color: white;
+    font-weight: 600;
+}
+.cont a{
+    padding: 3px 7px;
+    border: 1px solid white;
+    line-height: 3.5em;
+    text-decoration: none;
+    color: white;
+    border-radius: 5px;
+}
+.udoka .goods .cup:hover .cont{
+    display: block;
+}
+@keyframes emma {
+    from{background-size: 600px;} 
+    to{background-size: 800px;}
+}
+.udoka .goods .cap{
+    width: 100%;
+    height: 300px;
+    background-image: url(../image/louis\ cap.webp);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    float: left;
+}
+.udoka .goods .cap:hover{
+    width: 100%;
+    height: 300px;
+    background-image: url(../image/louis\ cap.webp);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    float: left;
+    animation: emma 1s linear forwards;
+}
+.udoka .goods .cap .cont{
+    width: 100%;
+    height: 80px;
+    background-color: green;
+    margin-top: 220px;
+    float: left;
+    opacity: 0.85;
+    display: none;
+}
+.cont p{
+    width: 60%;
+    float: left;
+    padding-left: 10px;
+    margin-top: 12px;
+    color: white;
+    font-weight: 600;
+}
+.cont a{
+    padding: 3px 7px;
+    border: 1px solid white;
+    line-height: 3.5em;
+    text-decoration: none;
+    color: white;
+    border-radius: 5px;
+}
+.udoka .goods .cap:hover .cont{
+    display: block;
+}
+@keyframes emma {
+    from{background-size: 600px;} 
+    to{background-size: 800px;}
+}
+.udoka .goods .ball{
+    width: 100%;
+    height: 300px;
+    background-image: url(../image/versace.webp);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    float: left;
+}
+.udoka .goods .ball:hover{
+    width: 100%;
+    height: 300px;
+    background-image: url(../image/versace.webp);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    float: left;
+    animation: emma 1s linear forwards;
+}
+.udoka .goods .ball .cont{
+    width: 100%;
+    height: 80px;
+    background-color: green;
+    margin-top: 220px;
+    float: left;
+    opacity: 0.85;
+    display: none;
+}
+.cont p{
+    width: 60%;
+    float: left;
+    padding-left: 10px;
+    margin-top: 12px;
+    color: white;
+    font-weight: 600;
+}
+.cont a{
+    padding: 3px 7px;
+    border: 1px solid white;
+    line-height: 3.5em;
+    text-decoration: none;
+    color: white;
+    border-radius: 5px;
+}
+.udoka .goods .ball:hover .cont{
+    display: block;
+}
+@keyframes emma {
+    from{background-size: 600px;} 
+    to{background-size: 800px;}
+}
+/*
+portfolio ends
+=============================================
+contact us begins
+*/
+.crown span{
+    font-size: 25px;
+    color: green;
+    font-weight: bolder;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 100%;
+    height: auto;
+    text-align: center;
+    text-shadow: -1px 2px 2px black;
+    padding: 3px 0;
+}
+.maps .ella{
+    padding: 20px;
+    border-top: 3px solid green;
+    border-bottom: 3px solid green;
+    box-shadow: 0 3px 3px 2px gainsboro;
+}
+.mapping{
+    height: 300px;
+}
+.maps .ella h4{
+    color: green;
+}
+.message .myform{
+    border-top: 3px solid green;
+    border-bottom: 3px solid green;
+    padding: 20px;
+    box-shadow: 0 3px 3px 2px gainsboro;
+}
+/*
+contact ends 
+=========================================================
+footer begins
+*/
+.emeka{
+    background-color:white;
+    padding: 2px 0;
+    width: 100%;
+    border-radius: 25px;
+    padding-left: 20px;
+}
+.emeka button{
+    background-color: green;
+    padding: 10px 30;
+    color: white;
+    border-radius: 25px;
+}
+.emeka button:hover{
+    background-color: rgb(12, 70, 12);
+    padding: 10px 30px;
+    color: white;
+    border-radius: 25px;
+}
+.emeka input{
+    width: 100%;
+    height: 40px;
+    outline: none;
+    border: 1px solid white;
+}
+.pot span{
+    font-size: 25px;
+    color: green;
+    font-weight: bolder;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 100%;
+    height: auto;
+    text-align: center;
+    text-shadow: -1px 2px 2px black;
+    padding: 3px 0;
+}
+.myfoot ul{
+    padding-left: 0;
+}
+.myfoot ul li{
+    list-style: none;
+    padding: 3px 0;
+}
+.myfoot ul li a{
+text-decoration: none;
+color: inherit;
+}
+.myfoot ul li a:hover{
+text-decoration: none;
+color: green;
+}
+.myfoot h6{
+    color: green;
+}
+.myfoot ul li i{
+    font-size: 12px;
+    color: green;
+}
+.social a{
+    color: green;
+}
+.social a i{
+    font-size: 20px;
+}
+.bread{
+     padding-top: 30px !important;
+     padding-bottom: 10px;
+}
+.bread h4{
+    color: green;
+}
+.pan{
+     padding-top: 30px !important;
+     padding-bottom: 10px;
+}
+.pan h4{
+    color: green;
+}
+.tea{
+     padding-top: 30px !important;
+     padding-bottom: 10px;
+}
+.tea h4{
+    color: green;
+}
+.cup{
+     padding-top: 30px !important;
+     padding-bottom: 10px;
+}
+.cup h4{
+    color: green;
+}
+.mybuta{
+    padding: 4px 20px !important;
+    border: 1px solid white !important;
+    border-radius: 25px;
+    box-shadow: 0 1px 1px 1px ghostwhite;
+}
+.mike{
+    border-top: 3px solid green;
+    border-bottom: 3px solid green;
+    padding: 20px;
+    box-shadow: 0 3px 3px 2px gainsboro;
+}
