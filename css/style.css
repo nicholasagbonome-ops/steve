@@ -23,7 +23,8 @@ header begins
     margin-top: 80px;
 }
 #hero img{
-    height: 900px;
+    height: 700px;
+    width: 60%;
 }
 span{
     width: 100%;
